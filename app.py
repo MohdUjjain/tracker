@@ -5,7 +5,7 @@ import datetime
 app = Flask(__name__)
 
 # 🔥 PUT YOUR APPS SCRIPT URL HERE
-GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
+GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyMs-Xi60isiB4GF3IGL3CFP0Zak1iVpPWtzy2YhxmUVBCqFvybA6kMMl6d3Iwfc5an/exec"
 
 
 def log_to_sheets(email, action, campaign, redirect_to):
